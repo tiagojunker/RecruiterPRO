@@ -1,8 +1,8 @@
 # RecruiterPRO
 
 ## Descrição
-<p>O Projeto RecruiterPRO é uma pataforma de recrutamento e seleção criada para os dois extremos (candidato e recrutador)
-nela o recrutador pode candidatar vagas, ter acesso a candidatos e enviar feedbacks para os mesmos, por sua vez os candidatos
+<p>O Projeto RecruiterPRO é uma pataforma de recrutamento e seleção criada para os dois extremos (candidato e recrutador).
+Nela o recrutador pode cadastrar vagas, ter acesso a candidatos e enviar feedbacks para os mesmos. Por sua vez os candidatos
 tem acesso a todas as vagas de todos os recrutadores, podem ver as informações das mesmas e se cadastrar caso se acharem
 adequados as mesas.</p>
 
