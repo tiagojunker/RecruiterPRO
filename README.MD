@@ -8,7 +8,7 @@ adequados as mesas.</p>
 
 ## Tecnologias usadas
 ### Front-end
-<p>Vue.Js, Vue Router, Bootstrao e Axios. </p>
+<p>Vue.Js, Vue Router, Bootstrap e Axios. </p>
 
 ### Back-end
 <p>Node.js, Express, Mongoose, Bcrypt, Json Web Tokens e Postman para testes.</p>
