@@ -179,13 +179,13 @@ class Recruiter {
 
                     } catch (err) {
                         console.log(err)
-                        res.status(401)
+                        res.status(500)
                         res.json({ status: false, msg: 'Houve um problema finalizar o candidato.' })
                     }
 
                  } catch(err) {
                     console.log(err)
-                    res.status(401)
+                    res.status(500)
                     res.json({ status: false, msg: 'Houve um problema ao enviar o feedback.' })
                  }
 
@@ -207,7 +207,7 @@ class Recruiter {
         } catch (error) {
             console.log(error)
             res.status(500)
-            res.json({ststua: false, msg: 'Problema ao conectar com servidor.'})
+            res.json({status: false, msg: 'Problema ao conectar com servidor.'})
         }
 
     }
