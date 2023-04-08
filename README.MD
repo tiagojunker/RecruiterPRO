@@ -12,6 +12,7 @@ adequados as mesas.</p>
 
 ### Back-end
 <p>Node.js, Express, Mongoose, Bcrypt, Json Web Tokens e Postman para testes.</p>
+<p>Caso queira olhar a documentação da API basta entrar na pasta "back"</p>
 
 ## Outras informações
 <p> Todo o back-end e front-end foi feito utilizando async/await para operações asincronas, o backend foi feito utilizando a estrutura de Model e Controllers aplicando todo o conceito de POO com javascript.</p>
