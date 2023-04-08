@@ -46,7 +46,7 @@ export default {
 
         async apply() {
             try{
-                let url = 'http://localhost:3000/vacancy/apply' // ---> colocar candidateId dinamicamente
+                let url = 'http://localhost:3000/vacancy/apply'
                 let response = await axios.post(url, { vacancyId: this.id, candidateId: this.candidateId })
                 window.alert(response.data.msg)
                 window.location.reload()              

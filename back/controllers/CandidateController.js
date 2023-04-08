@@ -50,7 +50,7 @@ class Candidate {
 
             } else {
                 res.status(401)
-                res.json({status: false, msg: 'Já existe um usuário com esse email.'})
+                res.json({status: false, msg: 'Já existe um usuário com esse email no sistema.'})
             }
             
         } else {
@@ -137,7 +137,7 @@ class Candidate {
         } catch (error) {
             console.log(error)
             res.status(500)
-            res.json({ststua: false, msg: 'Problema ao conectar com servidor.'})
+            res.json({status: false, msg: 'Problema ao conectar com servidor.'})
         }
     }
 
@@ -198,7 +198,7 @@ class Candidate {
 
             if(vacancies.length == 0) {
                 res.status(404)
-                res.json({ ststua: false, msg: 'Não existem vagas abertas.' })
+                res.json({ status: false, msg: 'Não existem vagas abertas.' })
 
             } else {
                 res.status(200)

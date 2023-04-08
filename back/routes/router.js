@@ -19,7 +19,7 @@ router.post('/recruiter/validate', RecruiterLoginAuth, RecruiterController.valid
 
 router.post('/candidate/login', CandidateController.Login)  // Rota que faz autenticação do candidato
 router.post('/candidate/create', CandidateController.Create)  // Rota que registra um novo candidato
-router.get('/candidate/:candidateId', CandidateController.ShowCandidate)  // Rota que retorna informações de um candidato
+router.get('/candidate/:candidateId', CandidateController.ShowCandidate)  // Rota que retorna informações do um candidato
 router.post('/vacancy/apply', CandidateController.VacancyApply)  // Rota que applica um dandidato a uma vaga
 router.post('/vacancy/feedbacks', CandidateController.GetFeedback)  // Rota que rota que obtém os feedbacks de um candidato
 router.post('/vacancy/applications', CandidateController.MyApplications)  // Rota que obtém as aplicações em aberto de um candidato
